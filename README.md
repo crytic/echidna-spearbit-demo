@@ -24,7 +24,7 @@ A few pointers to start:
 To start a Echidna fuzzing campaign use:
 
 ```
-$ echidna-test --test-mode assertion --contract TestSomeDefi SomeDeFi.sol
+$ echidna-test --test-mode assertion --contract TestSomeDefi --config SomeDeFi.yaml SomeDeFi.sol
 ```
 
 The recommended Solidity version for the fuzzing campaign is 0.8.1, however, more recent releases can be used as well.
